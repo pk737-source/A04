@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Tells the browser this file is an HTML5 document -->
+<html lang="en">
+<!-- Opens the root element; lang="en" says the page content is in English -->
+<head>
+    <!-- Opens the head section, which holds information ABOUT the page (not shown on the page itself) -->
+    <meta charset="UTF-8">
+    <!-- Sets the character encoding to UTF-8 so symbols like the copyright sign display correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the page scale properly on phones and tablets -->
+    <title>My First Web Page</title>
+    <!-- Sets the text shown on the browser tab -->
+    <style>
+        /* Opens a style block where CSS (the page's visual rules) is written */
+        body {
+            /* Styles everything inside the <body> element */
+            font-family: Arial, sans-serif;  /* Uses Arial, falling back to any sans-serif font */
+            max-width: 600px;                /* Keeps the page content from stretching too wide */
+            margin: 40px auto;               /* 40px space above/below; auto centers the page horizontally */
+            padding: 0 20px;                 /* Adds 20px of space on the left and right edges */
+            line-height: 1.6;                /* Adds comfortable spacing between lines of text */
+            color: #222;                     /* Sets the text color to a dark gray */
+        }
+        /* Closes the body rule */
+        h1 {
+            /* Styles the main heading */
+            color: #1a4d8f;                  /* Makes the heading blue */
+            border-bottom: 2px solid #1a4d8f; /* Draws a blue line under the heading */
+            padding-bottom: 8px;             /* Adds space between the heading text and the line */
+        }
+        /* Closes the h1 rule */
+        footer {
+            /* Styles the footer */
+            margin-top: 40px;                /* Adds space between the content and the footer */
+            padding-top: 10px;               /* Adds space inside the footer above the text */
+            border-top: 1px solid #aaa;      /* Draws a thin gray line above the footer */
+            font-size: 0.9em;                /* Makes the footer text slightly smaller */
+            color: #555;                     /* Makes the footer text medium gray */
+        }
+        /* Closes the footer rule */
+    </style>
+    <!-- Closes the style block -->
+</head>
+<!-- Closes the head section -->
+<body>
+    <!-- Opens the body section, which holds everything visible on the page -->
+    <h1>Welcome to My First Web Page</h1>
+    <!-- Creates the main heading (level 1, the largest) -->
+
+    <p><strong>Username:</strong> pk737</p>
+    <!-- Paragraph showing the username; <strong> makes the label bold.  -->
+    <p><strong>Course Name:</strong> IS</p>
+    <!-- Paragraph showing the course name. -->
+    <p><strong>Course Number:</strong> 117</p>
+    <!-- Paragraph showing the course number. -->
+    <p><strong>Section:</strong> 001</p>
+    <!-- Paragraph showing the section. -->
+
+    <footer>
+        <!-- Opens the footer element, which holds closing information for the page -->
+        <p>&copy; Pranav &ndash; Due: 10/6/26</p>
+        <!-- &copy; displays the copyright symbol; &ndash; displays a dash; then the name and due date. -->
+    </footer>
+    <!-- Closes the footer element -->
+</body>
+<!-- Closes the body section -->
+</html>
+<!-- Closes the root html element, ending the document -->
